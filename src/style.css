@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.gray {
+    color:rgba(0, 0, 0, 0.3);
+}
+
 
 .navbar {
     height: 70px;
@@ -59,4 +63,51 @@ body {
 .hero--subhead {
     margin: 0.3em;
     line-height: 1.1;
+}
+
+.section--card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    align-self: center;
+    font-size: 0.75em;
+    max-width: 175px;
+}
+
+.card--img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card--status {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding:.2em;
+}
+
+.status--text {
+    text-transform: uppercase;
+    display: inline;
+}
+
+.card--stats {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.card--content {
+    padding: 0.5em; 
+    margin-bottom: 0.3em;  
+}
+
+.card--content > p {
+    margin: 0.2em 0;
+}
+
+.star--img {
+    height: 14px;
 }
