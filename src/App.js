@@ -9,7 +9,37 @@ export default function App() {
             <Navbar />
             <Hero />
             <section className="section--card">
-                <Card />
+                <Card 
+                    img="katie-zaferes.png"
+                    rating={5.0}
+                    reviewCount={6}
+                    country="USA"
+                    title="Life Lessons with Katie Zaferes"
+                    price={136}/>
+
+                <Card 
+                    img=""
+                    rating={5.0}
+                    reviewCount=""
+                    country=""
+                    title=""
+                    price={0}/>
+
+                <Card 
+                    img=""
+                    rating={5.0}
+                    reviewCount=""
+                    country=""
+                    title=""
+                    price={0}/>
+
+                <Card 
+                    img=""
+                    rating={5.0}
+                    reviewCount=""
+                    country=""
+                    title=""
+                    price={0}/>
             </section>
         </div>
     )
