@@ -12,9 +12,11 @@ export default function App() {
                 img={card.coverImg}
                 rating={card.stats.rating}
                 reviewCount={card.stats.reviewCount}
-                
+                openSpots={card.openSpots}
+                location={card.location}
                 />
     });
+
     return (
         <div className="app">
             <Navbar />
